@@ -1,0 +1,17 @@
+{
+ "name": "Buku Konsultasi Skripsi FKIP UPGRIP",
+ "short_name": "Buku Konsultasi",
+ "description": "Buku digital konsultasi skripsi dengan Mode Dosen",
+ "lang": "id",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#1B3A7A",
+ "theme_color": "#1B3A7A",
+ "icons": [
+  {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+  {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+  {"src":"icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+ ]
+}

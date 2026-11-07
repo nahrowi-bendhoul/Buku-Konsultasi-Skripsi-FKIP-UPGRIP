@@ -1,0 +1,21 @@
+PAKET APLIKASI BUKU KONSULTASI SKRIPSI (PWA)
+
+Isi paket ini harus ditaruh di alamat web (https). Semua file di folder ini diunggah bersama-sama, jangan dipisah:
+  index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png
+
+CARA TAYANG (pilih satu, gratis):
+A. Netlify Drop: buka app.netlify.com/drop, seret seluruh folder ini ke halaman itu. Anda mendapat alamat seperti https://nama-acak.netlify.app
+B. GitHub Pages: buat repositori, unggah semua file, aktifkan Settings > Pages. Alamat: https://namaanda.github.io/namarepo/
+C. Cloudflare Pages: Direct Upload, unggah folder ini.
+
+CARA PASANG DI PERANGKAT (setelah alamat jadi):
+- Android (Chrome): buka alamatnya, tekan tombol "Pasang aplikasi" di menu kiri buku, atau menu titik tiga > Instal aplikasi / Tambahkan ke layar utama.
+- PC (Chrome/Edge): buka alamatnya, tekan "Pasang aplikasi" di menu kiri buku, atau ikon pasang di kanan kolom alamat.
+- Setelah terpasang, ikon muncul di layar utama / desktop dan bisa dibuka tanpa internet.
+
+UNTUK DOSEN: kirim alamat yang berakhiran /#dosen, misalnya https://nama.netlify.app/#dosen , agar panel Mode Dosen langsung terbuka.
+
+MEMPERBARUI APLIKASI: ganti file index.html di tempat tayang. Angka VERSI di sw.js sebaiknya dinaikkan (bk-v1 menjadi bk-v2). Pengguna yang online otomatis mendapat versi terbaru. Isian mereka tetap ada.
+
+PENTING: isian tersimpan per alamat web. Gunakan satu alamat yang sama dan jangan ganti alamat, atau isian terbaca kosong. Tetap buat cadangan .json (Simpan > Simpan cadangan isian).
+iPhone/iPad: buka di Safari > Bagikan > Tambah ke Layar Utama (tombol Pasang aplikasi tidak muncul di Safari).
